@@ -1,0 +1,74 @@
+#F-body{
+  background-image: url(images/4_Image.avif );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+#G-body{
+  background-image: url(images/5_Image.avif );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+#A-body{
+  background-image: url(images/6-Image.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+#C-body{
+  background-image: url(images/CB.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+#H-body{
+  background-image: url(images/8-Image.jpg );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+/* THE NAVIGATION MANU */
+.navbar {
+    background-color:blue;
+    overflow: auto;
+    width: 100%;
+}
+/* NAVIGATION LINKS */
+.navbar a {
+    float: left;
+    padding: 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  /* FOR BUTTON  */
+  .button{
+    background-color: aqua;
+    padding: 8px;
+    margin-top: 8px;
+    margin-left:6% ;
+    color: white;
+    font-size: 17px;
+    justify-content: center;
+    border-radius: 5px;
+    font-style:oblique;
+  }
+/* THE CONTACT PAGE */
+.contact.html {
+    background-color: brown;
+    overflow: auto;
+    width: 100%;
+}
