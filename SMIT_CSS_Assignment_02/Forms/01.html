@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Put icon inside an input element</title>
+    <style>
+        h1{
+            color: red;
+        }
+        li{
+            color: green;
+        }
+        a{
+            color: aqua;
+        }
+        li:hover{
+            color:orangered ;
+        }
+        a:hover{
+            color:orangered ;
+        }
+    #email{
+        height: 27px;
+        width: 450px;
+        margin-top: 20px;
+    }
+    #password{
+        height: 27px;
+        width: 450px;
+        margin-top: 20px;
+    }
+    #name{
+        height: 27px;
+        width: 200px;
+        margin-top: 20px;
+        /* margin-left: 10px;
+        margin-right: 10px; */
+    }
+    #radio{
+        margin-right: 337px;
+        margin-top: 20px;
+    }
+    #dropdown{
+        margin-top: 20px;
+    }
+    button{
+        background-color: orange;
+        height: 33px;
+        width: 460px;
+        margin-top: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        margin-bottom: 60px;
+    }
+    </style>
+</head>
+<body style="background-color: wheat;">
+    <ul>
+        <h1>REGISTRATION FORMS
+            <li><a href="../index.html">Home</a></li>
+          <li><a href="#">Form NO 01</a></li>
+          <li><a href="02.html">Form NO 02</a></li>
+        </h1>
+    </ul>
+    <center>
+       <div style="background-color: wheat; align-items: center;">
+        <div style="background-color:white;margin:10px 685px; border-top: 5px solid orange; border-bottom: 1px solid white;">
+            <h1 style="color: black; font-family: Arial, Helvetica, sans-serif;">Responsive Pegistration <br>Form</h1>
+            <form>
+                <div id="">
+                    <i id="email-icon"></i>
+                    <input id="email" type="email" placeholder="Email" >
+                </div>
+                <div id="">
+                    <i id="lock-icon"></i>
+                    <input id="password" type="password" placeholder="Password" >
+                </div>
+                <div id="">
+                    <i id="password-icon"></i>
+                    <input id="password" type="password" placeholder="Re-type Password" >
+                </div>
+                <div id="">
+                    <i id="name"></i>
+                    <input id="name" type="text" placeholder="First Name" style="margin-right: 40px;" >
+                    <i id="name"></i>
+                    <input id="name" type="text" placeholder="Last Name" >
+                </div>
+                <div id="radio">
+                    <input type="radio">
+                    <label for="">Male</label>
+                    <input type="radio">
+                    <label for="">Female</label>
+                </div>
+                <div id="dropdown">
+                    <select name="" id="" style="width: 460px; height: 30px;">
+                        <option value="" disabled selected>Select a country</option>
+                        <option value="">Pakistan</option>
+                        <option value="">India</option>
+                        <option value="">America</option>
+                        <option value="">Turkey</option>
+                        <option value="">China</option>
+                    </select>
+                </div>
+                <div style=" margin-right: 231px;">
+                    <input type="checkbox" style="margin-top: 20px;" >
+                    <label for="">I agree with terms and conditions</label><br>
+                    <input type="checkbox" style="margin-top: 20px;">
+                    <label for="" style="margin-right: 12px;">I want to recieve the newsletter</label>
+                </div>
+                <div>
+                    <button>Register</button>
+                </div>
+            </form>
+
+        </div>
+
+       </div>
+    </center>
+</body>
+</html>
